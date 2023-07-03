@@ -1,0 +1,16 @@
+.form-control{
+    border-radius: 18px;
+    padding-left: 20px;
+}
+
+.input-group-text{
+    border-radius: 18px;
+}
+
+.form-control:focus{
+    color: var(--bs-body-color);
+    background-color: none;
+    border-color: var(--bs-border-color);
+    outline: 0;
+    box-shadow: none;
+}
